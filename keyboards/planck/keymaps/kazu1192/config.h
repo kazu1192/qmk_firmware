@@ -17,7 +17,7 @@
 #pragma once
 
 #ifdef AUDIO_ENABLE
-#    define STARTUP_SONG SONG(PLANCK_SOUND)
+#    define STARTUP_SONG SONG(STARTUP_SOUND)
 // #define STARTUP_SONG SONG(NO_SOUND)
 
 #    define DEFAULT_LAYER_SONGS \
@@ -47,3 +47,17 @@
 
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
+
+// RGB lighting
+#define RGBLIGHT_SLEEP
+#define RGBLIGHT_ANIMATIONS
+
+// MOUSEKEY
+#define MOUSEKEY_DELAY 10
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 3
+#define MOUSEKEY_TIME_TO_MAX 5
+#define MOUSEKEY_WHEEL_DELAY 300
+#define MOUSEKEY_WHEEL_INTERVAL 100
+#define MOUSEKEY_WHEEL_MAX_SPEED 8
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
